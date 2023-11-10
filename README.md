@@ -3,6 +3,9 @@
 - Simple utility to rough disk test
 - Its does not format selected disk. it can use the remaining disk space
 
+![Example](https://github.com/rldv1/ssdtool/assets/118821863/1761477b-70e7-43cf-9b28-ff7a86c94d47)
+
+
 ## HowTo
 - Download a ssdtool
 - Install psutil via `pip3 install psutil`
