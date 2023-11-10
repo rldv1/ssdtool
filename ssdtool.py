@@ -16,7 +16,7 @@ def scan_disk(disk_path):
             checksum = t.read(16)
             payload_ch = hashlib.md5(payload).digest()
             
-            iter_speed[1] += 4096
+            iter_speed[1] += len(payload) + len(checksum)
             if payload_ch != checksum:
                 print("\n[!] BAD BLOCK AT {}\n1nd: {}\n2nd: {}\n\n".format(_, payload_ch, checksum))
                 bstat[0] += 1
