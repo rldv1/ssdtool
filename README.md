@@ -3,7 +3,7 @@
 - Simple utility to rough disk test
 - Its does not format selected disk. it can use the remaining disk space
 
-![Example2](https://github.com/rldv1/ssdtool/assets/118821863/656e708c-e54e-4a51-9d00-386b4aaacfbf)
+![naaah3rdattempt](https://github.com/rldv1/ssdtool/assets/118821863/b1275423-3e0c-4c47-a2a5-a9c08c9e429e)
 
 
 ## HowTo
