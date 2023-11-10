@@ -5,7 +5,7 @@
 ## HowTo
 - Download a ssdtool
 - Install psutil via `pip3 install psutil`
-- Run via `python3 ssdtoo.py`
+- Run via `python3 ssdtool.py`
 
 ## HowIt
 Its pretty simple
