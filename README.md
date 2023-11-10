@@ -1,4 +1,5 @@
 # ssdtool
+- **Uses advanced scientific technology Govnocode(R) Ultra**
 - Simple utility to rough disk test
 - Its does not format selected disk. it can use the remaining disk space
 
