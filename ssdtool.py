@@ -1,7 +1,7 @@
 import os, hashlib, random, time
 try: import psutil
 except ImportError:
-    print("Please run pip3 install psutil"); return
+    print("Please run pip3 install psutil"); exit(1)
 iter_speed = [time.time(), 0, 0]
 
 def scan_disk(disk_path):
