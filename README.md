@@ -8,6 +8,11 @@
 - Generation speed of random blocks increased to 200-250mb/s
 - Now uses CRC32, no more MD5
 - Information about bad blocks now avaliable in log file (report.txt) which creates in directory from here script runs
+- Added progress bar
+  
+  ![изображение](https://github.com/rldv1/ssdtool/assets/118821863/00f96868-a9e4-411a-bbf0-e74c63d6ef2b)
+  ![изображение](https://github.com/rldv1/ssdtool/assets/118821863/37b76705-1d3b-4526-9e36-f504705b83d0)
+  
   ![изображение](https://github.com/rldv1/ssdtool/assets/118821863/61dc55d5-843e-46c8-82a7-5f578876f6db)
 
 
