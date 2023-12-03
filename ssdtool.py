@@ -42,7 +42,7 @@ def scan_disk(disk_path, mode=0):
             if payload_ch != checksum:
                 i = int((_/blocks)*100 / 2)
                 ranges_bad.append(range((i*2)-1, i*2))
-                if bstat[1] <= 512: bad_blocks_file.write("\n[!] BAD BLOCK at #{}\nPayload/Declared hash: {}/{}\nPayload content:\n{}\n\n".format(_, payload_ch, checksum, stoh(payload.hex(), b=int(_*4096)))
+                if bstat[1] <= 512: bad_blocks_file.write("\n[!] BAD BLOCK at #{}\nPayload/Declared hash: {}/{}\nPayload content:\n{}\n\n".format(_, payload_ch, checksum, stoh(payload.hex(), b=int(_*4096))))
             
             
             
